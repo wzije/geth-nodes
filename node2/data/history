@@ -1,0 +1,2 @@
+eth.getBalance(eth.accounts[0])
+eth.blockNumber

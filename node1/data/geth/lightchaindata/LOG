@@ -1,0 +1,8 @@
+=============== Sep 20, 2022 (WIB) ===============
+09:27:51.293637 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:27:51.302308 db@open opening
+09:27:51.303277 version@stat F·[] S·0B[] Sc·[]
+09:27:51.310387 db@janitor F·2 G·0
+09:27:51.310428 db@open done T·8.049787ms
+09:27:51.378996 db@close closing
+09:27:51.379259 db@close done T·260.566µs

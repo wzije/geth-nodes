@@ -1,0 +1,10 @@
+node 1 : 0x536ca36379b2Ee1C6A292692098E033D62Fb102c | localhost 
+node 2 : 0xd756d69cABfebEFC908dab4D36e6BCaB17F7768b | localhost
+
+
+geth --networkid 14334 --datadir "./data" --bootnodes enode://6edd51d350d4a9f8d0e5bb96a95482b575405c51fded48566761592ad1715063c5a24b0c93eedafb169255f57ffb5114097e6c2cb399dc51c20d5417a6207d45@127.0.0.1:30301 --port 30313 --ipcdisable --syncmode full --http  --allow-insecure-unlock --http.corsdomain "*" --http.port 8555 --unlock 0x536ca36379b2Ee1C6A292692098E033D62Fb102c --password password.txt  --mine --authrpc.port 8562  console
+
+geth --networkid 14334 --datadir "./data" --bootnodes enode://6edd51d350d4a9f8d0e5bb96a95482b575405c51fded48566761592ad1715063c5a24b0c93eedafb169255f57ffb5114097e6c2cb399dc51c20d5417a6207d45@127.0.0.1:30301 --port 30314 --ipcdisable --syncmode full --http  --allow-insecure-unlock --http.corsdomain "*" --http.port 8556 --unlock 0xd756d69cABfebEFC908dab4D36e6BCaB17F7768b --password password.txt --authrpc.port 8562  console
+
+
+eth.getBalance(eth.accounts[0])
